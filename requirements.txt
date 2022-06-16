@@ -1,0 +1,5 @@
+streamlit==1.1.0
+markovchain==0.2.6
+numpy==1.21.2
+Pillow==8.3.2
+joblib==1.1.0
