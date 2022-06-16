@@ -1,5 +1,4 @@
 import streamlit as st
-from keras.preprocessing.text import Tokenizer
 import joblib
 from PIL import Image
 import numpy as np
