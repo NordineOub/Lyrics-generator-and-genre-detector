@@ -20,7 +20,7 @@ def findGenre(df):
 
 def import_markov_model(genre):
     lyrics = []
-    markov = MarkovText.from_file('markov_model.json')
+    markov = MarkovText.from_file('markov_model_50k.json')
     st.write('Paroles de lyrics :\n\n')
     paroles =markov(max_length=190, reply_to = genre)
     for mots in paroles:
